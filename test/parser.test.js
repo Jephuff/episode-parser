@@ -4,6 +4,12 @@ var example = require('./support/example')
 
 
 describe('parser', function() {
+  example('comedians in cars getting coffee S1 E1', {
+    show:    'comedians in cars getting coffee',
+    season:  1,
+    episode: 1,
+  })
+
   example('StarCrafts Season 01 Episode 1 the Probelem', {
     show:    'StarCrafts',
     season:  1,
