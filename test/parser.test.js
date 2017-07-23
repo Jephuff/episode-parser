@@ -2,7 +2,27 @@
 
 var example = require('./support/example')
 
+
 describe('parser', function() {
+  example('StarCrafts Season 01 Episode 1 the Probelem', {
+    show:    'StarCrafts',
+    season:  1,
+    episode: 1,
+  })
+  
+  example('battlestar galactica s01e01-e03 - saga of a star world.mp4', {
+    show:    'battlestar galactica',
+    season:  1,
+    episode: 1,
+    range: 2,
+  })
+
+  example('full frontal with samantha bee s01e14.mkv', {
+    show:    'full frontal with samantha bee',
+    season:  1,
+    episode: 14,
+  })
+
   example('Hello.S01E05.HDTV-GOTTALOVEiT', {
     show:    'Hello',
     season:  1,
